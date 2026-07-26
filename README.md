@@ -1,18 +1,32 @@
 # 📄 Resume QR Code Gallery & Generator
 
-A simple, fast, and responsive web application that automatically generates custom QR codes for resume links using Python and showcases them in a responsive card gallery layout. Built as a college mini-project.
+A responsive web application built with Python and HTML5/JS that generates custom QR codes for resume links and displays them in an interactive modal gallery. Built as a college mini-project.
+
+🌐 **Live Demo:** [https://resume-qr-code-369.vercel.app/](https://resume-qr-code-369.vercel.app/)
+
+---
+
+## 🔄 How It Works
+1. **Interactive Gallery:** Users view a collection of resume cards on the website.
+2. **Click to Reveal:** Clicking the **"Show QR Code"** button opens a pop-up modal displaying a high-resolution QR code.
+3. **Scan & View:** Scanning the displayed QR code with any smartphone camera instantly redirects to the full resume hosted on Google Drive.
+
+---
 
 ## 🚀 Features
-* **Automated QR Generation:** Python script batch-generates high-resolution QR codes from Google Drive links using `qrcode`.
-* **Responsive Frontend UI:** Clean HTML5/CSS3 card grid designed for mobile and desktop screens.
-* **Instant Redirection:** Every card includes a direct link alongside the downloadable QR image.
-* **Vercel Deployment:** Hosted live with zero configuration needed.
+* **Automated Batch Generation:** Python script generates QR codes for multiple resume links using `qrcode` and `Pillow`.
+* **Interactive Modal UI:** Clean HTML5, CSS3, and JavaScript pop-up modal for displaying QR codes clearly.
+* **Mobile-First Responsive Design:** Grid layout optimized for viewing on phones and desktop browsers.
+* **Vercel Deployment:** Hosted live with continuous deployment directly from Vercel.
+
+---
 
 ## 🛠️ Tech Stack
-* **Language:** Python 3
-* **Frontend:** HTML5, CSS3
-* **Libraries:** `qrcode`, `Pillow`
-* **Deployment Platform:** Vercel
+* **Backend / Scripting:** Python 3 (`qrcode`, `Pillow`)
+* **Frontend:** HTML5, CSS3, JavaScript
+* **Hosting / Deployment:** Vercel
+
+---
 
 ## 📦 How to Run Locally
 
@@ -20,4 +34,3 @@ A simple, fast, and responsive web application that automatically generates cust
    ```bash
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
    cd YOUR_REPO_NAME
-   
